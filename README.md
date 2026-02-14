@@ -1,7 +1,7 @@
 
-Problem Statement:  Implement multiple classification models
+**Problem Statement:**  Implement multiple classification models
 
-Dataset description: UCI Human Activity Recognition database: Human Activity Recognition database built from the recordings of 30 subjects performing 
+**Dataset description:** UCI Human Activity Recognition database: Human Activity Recognition database built from the recordings of 30 subjects performing 
 activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 it has 10299 data set with 561 features.
@@ -9,7 +9,7 @@ No of test dataset: 7352
 No of training dataset: 2947
 
 
-Models used:
+**Models used:**
 	"Logistic Regression",
     "Decision Tree",
     "KNN",
@@ -17,7 +17,7 @@ Models used:
     "Random Forest",
     "XGBoost"
 	
-Comparison Table with the evaluation metrics calculated for models.
+**Comparison Table with the evaluation metrics calculated for models.**
 	
 | Model					| Accuracy	| AUC		| Precision | Recall	| F1 Score	| MCC      |
 | Logistic Regression	| 0.954191	| 0.997532	| 0.956045	| 0.954191	| 0.954144	| 0.945333 |
@@ -28,7 +28,7 @@ Comparison Table with the evaluation metrics calculated for models.
 | XGBoost				| 0.938242	| 0.996948	| 0.939523	| 0.938242	| 0.93802	| 0.926098 |
 
 
-ML Model Name Observation about model performance 
+**ML Model Name Observation about model performance **
 Logistic Regression  | AUC is high so it is classifing the data with high accurately It is the best performing model
 Decision Tree        | it is the fifth best performing model
 kNN                  | it is the fourth best performing model
