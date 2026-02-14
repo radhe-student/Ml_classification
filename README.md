@@ -28,7 +28,7 @@ No of training dataset: 2947
 | XGBoost				| 0.938242	| 0.996948	| 0.939523	| 0.938242	| 0.93802	| 0.926098 |
 
 
-**ML Model Name Observation about model performance **
+**ML Model Name Observation about model performance**
 Logistic Regression  | AUC is high so it is classifing the data with high accurately It is the best performing model
 Decision Tree        | it is the fifth best performing model
 kNN                  | it is the fourth best performing model
