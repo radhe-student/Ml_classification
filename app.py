@@ -9,7 +9,7 @@ print("Press \n1 for Logistic Regression \n"+
              "4 for Naive Bayes \n" +
              "5 for Random Forest \n" +
              "6 for XGBoost \n" +
-             "7 fo All above")
+             "7 for All above")
 try:            
     input_model = int(input("Enter value from 1 to 7: "))
 
@@ -30,6 +30,7 @@ md.train_test_as_per_input(input_model)
 #results = md.train_and_test_all_models(models, X_train, y_train, X_test, y_test)
 #results = md.pridict_and_evaluate_model(models, X_train, y_train, X_test, y_test)
 #md.print_results(results)
+
 
 
 
